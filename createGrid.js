@@ -17,7 +17,11 @@ for (let i = 0; i < columnNumber; i++)
         cell.classList.add("cell");
         cell.style.width = String(containerWidth / columnNumber) + "px";
         cell.style.height = String(containerHeight / rowNumber) + "px";
+        cell.addEventListener("mouseover", () => {
+            cell.style.backgroundColor = "black";
+        });
         column.appendChild(cell);
     }
     container.appendChild(column);
 }
+
