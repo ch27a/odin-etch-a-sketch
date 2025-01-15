@@ -14,3 +14,7 @@
     flex-shrink: 0;
     justify-content: space-between;
 }
+
+.cell:hover {
+    background-color: black;
+}
