@@ -1,0 +1,16 @@
+#container {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* height: 960px;
+    width: 960px; */
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
